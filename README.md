@@ -33,4 +33,10 @@ root                    (project root folder)
 
 ## Authors
 ---
-* TODO: Add your name and email here
+* TODO:
+--
+* Elizeu Silva: fer21029@byui.edu 
+* Alexander Karasik: kar21020@byui.edu 
+* Shawn Yang: yangshawn14@byui.edu
+* Brenner Mann: man19032@byui.edu 
+* Josifini Tamanalevu : josifini1234@gmail.com 
