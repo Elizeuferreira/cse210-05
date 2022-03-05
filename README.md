@@ -32,10 +32,9 @@ root                    (project root folder)
 * Raylib Python CFFI 3.7
 
 ## Authors
----
-* # Team and responsibilities: 
-* Elizeu Silva: fer21029@byui.edu - classes Actor and Cast
-* Alexander Karasik: kar21020@byui.edu - classes Artifact and Director
-* Shawn Yang: yangshawn14@byui.edu - class KeyboardService
-* Brenner Mann: man19032@byui.edu - classes Color and Point
-* Josifini Tamanalevu : josifini1234@gmail.com - class VideoService
+--- 
+* Elizeu Silva: fer21029@byui.edu 
+* Alexander Karasik: kar21020@byui.edu 
+* Shawn Yang: yangshawn14@byui.edu 
+* Brenner Mann: man19032@byui.edu 
+* Josifini Tamanalevu : josifini1234@gmail.com 
