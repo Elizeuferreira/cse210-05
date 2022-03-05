@@ -1,5 +1,5 @@
 import pyray
-from game.shared.point import Point
+from game.shared.point import Point # new 
 
 
 class KeyboardService:
