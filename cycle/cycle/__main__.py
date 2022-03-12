@@ -20,9 +20,12 @@ def main():
     # create the cast
     cast = Cast()
     cast.add_actor("foods", Food())
-    cast.add_actor("snakes", Cycle())
-    cast.add_actor("scores", Score())
-   
+    cast.add_actor("cycles", Cycle(constants.RED))
+    cast.add_actor("cycles", Cycle(constants.YELLOW))
+    cast.add_actor("scores", Score(Point(0,0), 'Player One'))
+    cast.add_actor("scores", Score(Point(765,0), 'Player Two'))
+    
+
     # start the game
     keyboard_service = KeyboardService()
     video_service = VideoService()

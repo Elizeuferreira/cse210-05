@@ -9,7 +9,6 @@ class Food(Actor):
     A tasty item that snakes like to eat.
     
     The responsibility of Food is to select a random position and points that it's worth.
-
     Attributes:
         _points (int): The number of points the food is worth.
     """
@@ -23,7 +22,7 @@ class Food(Actor):
         
     def reset(self):
         """Selects a random position and points that the food is worth."""
-        self._points = random.randint(1, 8)
+        self._points = 1
         x = random.randint(1, constants.COLUMNS - 1)
         y = random.randint(1, constants.ROWS - 1)
         position = Point(x, y)

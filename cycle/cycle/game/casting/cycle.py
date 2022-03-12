@@ -57,7 +57,7 @@ class Cycle(Actor): #change the name this class
         x = 0.0
         y = 0.0
         
-        if(self._cycle_color ==Constant.RED):
+        if(self._cycle_color ==constants.RED):
             x =int(20)
             y =int(constants.MAX_Y/2)
         else:
