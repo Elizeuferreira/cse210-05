@@ -76,6 +76,3 @@ class ControlActorsAction(Action):
 
     def set_is_game_over(self, is_game_over):
         self._is_game_over = is_game_over
-        
-        
-        

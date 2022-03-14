@@ -1,12 +1,8 @@
 from game.scripting.handle_collisions_action import HandleCollisionsAction
-
-class Director: #working here
-    
-    
+class Director:
     """A person who directs the game. 
     
     The responsibility of a Director is to control the sequence of play.
-
     Attributes:
         _video_service (VideoService): For providing video output.
     """
@@ -22,7 +18,6 @@ class Director: #working here
         
     def start_game(self, cast, script):
         """Starts the game using the given cast and script. Runs the main game loop.
-
         Args:
             cast (Cast): The cast of actors.
             script (Script): The script of actions.
@@ -44,6 +39,7 @@ class Director: #working here
         """
         actions = script.get_actions(group)    
         for action in actions:
-            action.execute(cast, self._is_game_over, script) 
+            action.execute(cast, self._is_game_over, script)
+
             if isinstance(action, HandleCollisionsAction):
-                self._is_game_over = action.get_is_game_over()      
+                self._is_game_over = action.get_is_game_over()

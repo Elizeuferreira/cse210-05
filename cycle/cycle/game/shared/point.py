@@ -1,9 +1,7 @@
 class Point:
     """A distance from a relative origin (0, 0).
-
     The responsibility of Point is to hold and provide information about itself. Point has a few 
     convenience methods for adding, scaling, and comparing them.
-
     Attributes:
         _x (integer): The horizontal distance from the origin.
         _y (integer): The vertical distance from the origin.
@@ -21,10 +19,8 @@ class Point:
 
     def add(self, other):
         """Gets a new point that is the sum of this and the given one.
-
         Args:
             other (Point): The Point to add.
-
         Returns:
             Point: A new Point that is the sum.
         """
@@ -34,10 +30,8 @@ class Point:
 
     def equals(self, other):
         """Whether or not this Point is equal to the given one.
-
         Args:
             other (Point): The Point to compare.
-
         Returns: 
             boolean: True if both x and y are equal; false if otherwise.
         """
@@ -61,7 +55,6 @@ class Point:
 
     def reverse(self):
         """Reverses the point by inverting both x and y values.
-
         Returns:
             Point: A new point that is reversed.
         """
@@ -72,7 +65,6 @@ class Point:
     def scale(self, factor):
         """
         Scales the point by the provided factor.
-
         Args:
             factor (int): The amount to scale.
             

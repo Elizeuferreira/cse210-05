@@ -9,9 +9,8 @@ class MoveActorsAction(Action):
     than zero.
     """
 
-    def execute(self, cast, script):
+    def execute(self, cast, is_game_over, script):
         """Executes the move actors action.
-
         Args:
             cast (Cast): The cast of Actors in the game.
             script (Script): The script of Actions in the game.

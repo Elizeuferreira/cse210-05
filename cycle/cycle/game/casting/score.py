@@ -1,4 +1,6 @@
 from game.casting.actor import Actor
+
+
 class Score(Actor):
     """
     A record of points made or lost. 
