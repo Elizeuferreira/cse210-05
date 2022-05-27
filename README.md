@@ -1,9 +1,9 @@
 # Cycle
----
+
 Cycle is a game where the players try to cut each other off using cycles that leave a trail behind them.
 
 ## Getting Started
----
+
 Make sure you have Python 3.8.0 or newer and Raylib Python CFFI 3.7 installed and running on your machine. You can install Raylib Python CFFI by opening a terminal and running the following command.
 
 python3 -m pip install raylib
@@ -16,7 +16,7 @@ You can also run the program from an IDE like Visual Studio Code. Start your IDE
 project folder. Select the main module inside the hunter folder and click the "run" icon.
 
 ## Project Structure
----
+
 The project files and folders are organized as follows:
 ```
 root                    (project root folder)
@@ -27,12 +27,12 @@ root                    (project root folder)
 ```
 
 ## Required Technologies
----
+
 * Python 3.8.0
 * Raylib Python CFFI 3.7
 
 ## Authors
---- 
+ 
 * Elizeu Silva: fer21029@byui.edu 
 * Alexander Karasik: kar21020@byui.edu 
 * Shawn Yang: yangshawn14@byui.edu 
